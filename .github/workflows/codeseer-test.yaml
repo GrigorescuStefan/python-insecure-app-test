@@ -17,8 +17,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Pull CodeSeer Image
-        run: docker pull ghcr.io/grigorescustefan/codeseer:${CODESEER_VERSION}
+      # - name: Pull CodeSeer Image
+      #   run: docker pull ghcr.io/grigorescustefan/codeseer:${CODESEER_VERSION}
 
       - name: Run CodeSeer
         run: |
